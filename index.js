@@ -17,4 +17,4 @@ app.use(bodyParser.json());
 app.use('/movies', moviesRoutes);
 
 // Inicialização da aplicação
-app.listen(PORT, () => console.log("Server running on: http://localhost:5000"));
+app.listen(PORT, () => console.log("Server running on: http://localhost:5000/movies"));

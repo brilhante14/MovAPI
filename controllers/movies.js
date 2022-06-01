@@ -2,7 +2,7 @@
 const express = require('express');
 const movies = require('../data/movies.json');
 
-//TODO functions getMovies, getMovie, createMovie, updateMovie, deleteMovie
+//TODO functions getMovie, createMovie, updateMovie, deleteMovie
 
 // Deve retornar todos os filmes cadastrados no JSON mockado;
 // Status code: 200 - OK
